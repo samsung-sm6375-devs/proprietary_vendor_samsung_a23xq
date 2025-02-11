@@ -5,3 +5,9 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a23xq
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/a23xq/proprietary/vendor/firmware/lx891rs_a23xq_ltps.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/lx891rs_a23xq_ltps.bin \
+    vendor/samsung/a23xq/proprietary/vendor/firmware/nt36672_a23_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672_a23_csot.bin \
+    vendor/samsung/a23xq/proprietary/vendor/firmware/nt36672_a23_csot_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672_a23_csot_mp.bin \
+    vendor/samsung/a23xq/proprietary/vendor/firmware/td4375_a23xq_boe.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/td4375_a23xq_boe.bin \
+    vendor/samsung/a23xq/proprietary/vendor/firmware/td4375_a23xq_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/td4375_a23xq_tianma.bin
